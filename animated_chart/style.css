@@ -1,0 +1,63 @@
+*{
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box;
+}
+.greet{
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+}
+.char {
+  background: #ead5f5;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.chart {
+  margin: 20px;
+  text-transform: uppercase;
+}
+.chart > label , .chart .percent {
+  margin-top: 30px;
+  font-size: 1.6rem;
+}
+.chart .percent{
+  float: right;
+}
+.outer{
+  background: #031933;
+  width: 85vw;
+  height: 5vh;
+  margin-left: 40px;
+  overflow-x: hidden;
+}
+.inner {
+  background: #7c22ba;
+  height: 100%;
+  width: 0 ;
+
+}
+@media screen and (max-width: 850px){
+  .chart {
+    display: grid;
+    margin: 0;
+    margin-bottom: 5px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .percent{
+    float: right;
+  }
+  .outer{
+    width: 100vw;
+  }
+  .inner{
+   width: 0;
+  }
+  label{
+    margin-left: 10px;
+  }
+  .outer{
+    width: 65vw;
+  }
+
+}

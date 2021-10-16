@@ -1,0 +1,102 @@
+*{
+  margin: 0 ;
+  box-sizing: border-box;
+  padding: 0 ;
+}
+body{
+  text-transform: capitalize;
+}
+.connect {
+  background-color: #2d9bd1;
+  margin: 10px;
+  width: 95vw;
+  height: 30px;
+}
+.span {
+  float: right;
+  background: white;
+  padding: 6px;
+}
+.chart1 {
+  background-color: #044b47;
+  width: 90%;
+  height: 100%;
+}
+.chart2 {
+  background-color: #044b47;
+  width: 40%;
+  height: 100%;
+}
+.chart3 {
+  background-color: #044b47;
+  width: 20%;
+  height: 100%;
+}
+.chart4 {
+  background-color: #044b47;
+  width: 100%;
+  height: 100%;
+}
+.language {
+  background: #e9e9e9;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.charts{
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.charts label {
+  font-size: 1.5rem;
+}
+.charts > .percent {
+  margin-right: 10px;
+  float : right;
+  margin-top: 25px;
+  font-size: 2rem;
+}
+.charts > .outer {
+  background: #8878b3;
+  width: 90vw;
+  height: 5vh;
+  margin-left: 10px;
+}
+.outer > .inner1 {
+  background: #4f2980;
+  height: 100%;
+  width: 75%;
+}
+.outer > .inner2 {
+  background: #4f2980;
+  height: 100%;
+  width: 95%;
+}
+.outer > .inner3 {
+  background: #4f2980;
+  height: 100%;
+  width: 85%;
+}
+.outer > .inner4 {
+  background: #4f2980;
+  height: 100%;
+  width: 100%;
+}
+@media screen and (max-width: 758px){
+  body{
+    background: black;
+  }
+  .connect{
+    display: flex;
+    background: #044b47;
+  }
+  .ch {
+    background: #2d9bd1;
+  }
+  .charts {
+    display: flex;
+    margin-right: 15px;
+    margin-left: 4px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #39334b
+  }
+}
